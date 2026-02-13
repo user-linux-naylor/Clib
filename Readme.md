@@ -7,22 +7,12 @@
 
   ![c package manager screenshot](https://i.cloudup.com/GwqOU2hh9Y.png)
 
-## Installation
+ ## Installation:
 
   Expects [libcurl](http://curl.haxx.se/libcurl/) to be installed and linkable.
 
-  With [homebrew](https://github.com/Homebrew/homebrew):
-
-```sh
-$ brew install clib
-```
-
-  Or [MacPorts](https://www.macports.org):
-
-```sh
-$ sudo port selfupdate
-$ sudo port install clib
-```
+ <a href="docs/installation/user_linux.md" > Linux </a>
+ <a href="docs/installation/user_mac_md"> Mac </a>
 
   With git:
 
@@ -31,41 +21,6 @@ $ git clone https://github.com/clibs/clib.git /tmp/clib
 $ cd /tmp/clib
 $ make install
 ```
-
-  Ubuntu:
-
-```sh
-# install libcurl
-$ sudo apt-get install libcurl4-gnutls-dev -qq
-# clone
-$ git clone https://github.com/clibs/clib.git /tmp/clib && cd /tmp/clib
-# build
-$ make
-# put on path
-$ sudo make install
-```
-
-  Fedora:
-
-```sh
-# install libcurl
-$ sudo dnf install libcurl-devel
-# clone
-$ git clone https://github.com/clibs/clib.git /tmp/clib && cd /tmp/clib
-# build
-$ make
-# put on path
-$ sudo make install
-```
-
-  Nix:
-
-```sh
-$ nix-env -i clib
-```
-
-  Or add to your `nativeBuildInputs`.
-
 
 ## About
 
