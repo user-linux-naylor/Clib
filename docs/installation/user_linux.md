@@ -13,9 +13,8 @@
   $ sudo make install
   ```
 
-    Fedora:
-
-    ```sh
+   Fedora:
+```sh
     # install libcurl
     $ sudo dnf install libcurl-devel
     # clone
@@ -24,12 +23,11 @@
     $ make
     # put on path
     $ sudo make install
-    ```
+```
 
-      Nix:
-
-      ```sh
+    Nix:
+```sh
       $ nix-env -i clib
-      ```
+```
                                                                                                                                                                                                                               Or add to your `nativeBuildInputs`.
 
