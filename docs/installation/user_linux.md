@@ -38,4 +38,4 @@ Nix:
 ```sh
 $ nix-env -i clib
 ```                                                                                                                                                                                                                            
-<p>Or add to your `nativeBuildInputs`.<\p>
+<p>Or add to your `nativeBuildInputs`. <\p>
