@@ -34,6 +34,11 @@ $ make
 $ sudo make install
 ```
 
+Termux:
+```sh
+$ pkg update clibs-clib
+```
+
 Nix:
 ```sh
 $ nix-env -i clib
